@@ -25,18 +25,21 @@
       "http://github.com/clutchski/coffeelint/raw/master/LICENSE"
   ],
   "ignore": [
+    "*.js",
+    "*.sh",
+    "*coffeelint.json",
     ".*",
     "Cakefile",
     "bin",
     "doc",
-    "*.sh",
-    "node_modules",
-    "src",
-    "*.js",
     "lib/cache.js",
     "lib/commandline.js",
     "lib/configfinder.js",
     "lib/reporters",
-    "lib/ruleloader.js"
+    "lib/ruleloader.js",
+    "node_modules",
+    "package.json",
+    "src",
+    "test"
   ]
 }
