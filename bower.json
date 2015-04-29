@@ -24,7 +24,7 @@
   "license": [
       "http://github.com/clutchski/coffeelint/raw/master/LICENSE"
   ],
-  "ignore": {
+  "ignore": [
     ".*",
     "Cakefile",
     "bin",
@@ -38,5 +38,5 @@
     "lib/configfinder.js",
     "lib/reporters",
     "lib/ruleloader.js"
-  }
+  ]
 }
