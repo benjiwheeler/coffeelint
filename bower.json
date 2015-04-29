@@ -1,0 +1,42 @@
+{
+  "name": "coffeelint",
+  "description": "Lint your CoffeeScript",
+  "version": "1.9.4",
+  "homepage": "http://www.coffeelint.org",
+  "keywords": [
+    "lint",
+    "coffeescript",
+    "coffee-script"
+  ],
+  "authors": [
+    "Matthew Perpick <clutchski@gmail.com>"
+  ],
+  "main": "./lib/coffeelint.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clutchski/coffeelint.git"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1"
+  },
+  "devDependencies": {
+  },
+  "license": [
+      "http://github.com/clutchski/coffeelint/raw/master/LICENSE"
+  ],
+  "ignore": {
+    ".*",
+    "Cakefile",
+    "bin",
+    "doc",
+    "*.sh",
+    "node_modules",
+    "src",
+    "*.js",
+    "lib/cache.js",
+    "lib/commandline.js",
+    "lib/configfinder.js",
+    "lib/reporters",
+    "lib/ruleloader.js"
+  }
+}
